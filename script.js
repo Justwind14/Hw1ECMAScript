@@ -12,7 +12,7 @@ console.log(Math.min(...arr));
 // а не напрямую.
 
 function createCounter(counter) {
-    let countFlex;
+    let countFlex = counter;
     return {
         increment() {
             ++countFlex;

@@ -12,15 +12,16 @@ console.log(Math.min(...arr));
 // а не напрямую.
 
 function createCounter(counter) {
+    let countFlex;
     return {
         increment() {
-            ++counter;
+            ++countFlex;
         },
         decrement() {
-            --counter;
+            --countFlex;
         },
         getCounterValue() {
-            return counter;
+            return countFlex;
         }
     }
 }
